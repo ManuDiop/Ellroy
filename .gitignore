@@ -1,0 +1,10 @@
+# Environnement virtuel
+env/
+
+# Fichiers et dossiers temporaires de Django
+*.pyc
+__pycache__/
+
+# Fichiers de configuration locaux
+*.sqlite3
+db.sqlite3
