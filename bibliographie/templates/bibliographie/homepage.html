@@ -1,0 +1,47 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>James Ellroy - Bibliographie et Biographie</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <header>
+        <h1>James Ellroy - Bibliographie et Biographie</h1>
+    </header>
+
+    <section class="biographie">
+        <h2>Biographie de James Ellroy</h2>
+        <div class="photo-et-texte">
+            <img src="{% static 'images/james_ellroy.jpg' %}" alt="Photo de James Ellroy">
+            <p>
+                James Ellroy est un romancier américain célèbre pour ses romans noirs et thrillers policiers. Ses œuvres, souvent sombres et épiques, dépeignent les côtés les plus obscurs de la société américaine. Parmi ses romans les plus connus, on trouve "Le Dahlia noir", "L.A. Confidential" et "American Tabloid".
+            </p>
+        </div>
+    </section>
+
+    <section class="liste-livres">
+        <h2>Liste des Livres de James Ellroy</h2>
+        <div class="livres-container">
+            {% for livre in livres %}
+                <div class="livre-carte">
+                    {% if livre.couverture %}
+                        <img src="{{ livre.couverture.url }}" alt="Couverture de {{ livre.titre }}">
+                    {% endif %}
+                    <h3>{{ livre.titre }}</h3>
+                    <p><strong>Date de publication :</strong> {{ livre.date_publication }}</p>
+                    <p>{{ livre.description|truncatewords:20 }}</p>
+                    <a href="{% url 'detail_livre' livre.pk %}">Voir plus de détails</a>
+                </div>
+            {% endfor %}
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 James Ellroy Bibliographie. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
