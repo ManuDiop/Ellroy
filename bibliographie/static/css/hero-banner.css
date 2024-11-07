@@ -1,0 +1,106 @@
+/* hero-banner.css */
+
+/* Hero Banner */
+.hero-banner {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Prend toute la hauteur de l'écran */
+    background-image: url('/static/images/hero-banner.jpg'); /* Image de Todd Hido en fond */
+    background-size: cover; /* Couvre toute la surface de la bannière */
+    background-position: center; /* Centrer l'image */
+    background-attachment: fixed; /* Effet parallax */
+    color: #F8F8F8; /* Texte blanc cassé */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+/* Overlay pour améliorer la lisibilité */
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Fond sombre semi-transparent */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Header dans la bannière */
+.hero-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    z-index: 2; /* Assure que le header est au-dessus de l'image */
+}
+
+/* Logo à gauche */
+.logo img {
+    height: 60px;
+    width: auto;
+    border-radius: 50%;
+}
+
+/* Navigation à droite */
+.navigation ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.navigation a {
+    color: #F8F8F8; /* Texte blanc cassé */
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+.navigation a:hover {
+    color: #D3B88C; /* Beige sur survol */
+}
+
+/* Contenu de la bannière au centre */
+.hero-content {
+    text-align: center;
+    z-index: 1;
+    margin-top: auto;
+    margin-bottom: 200px; /* Ajuster l'espacement par rapport au bas */
+}
+
+.hero-content h1 {
+    font-family: 'Special Elite', system-ui;
+    font-size: 4rem;
+    margin: 0 0 20px;
+}
+
+.hero-content p {
+    font-size: 1.5rem;
+    margin: 20px 0;
+}
+
+.hero-content a {
+    color: #D3B88C; /* Beige */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.hero-banner-credit {
+    position: absolute;
+    bottom: 10px; 
+    right: 10px; 
+    color: #F8F8F8; 
+    font-size: 0.8rem; 
+    background: rgba(0, 0, 0, 0.5); 
+    padding: 5px; 
+    border-radius: 4px; 
+    z-index: 3; 
+}
+
+i {
+    color: white;
+}
