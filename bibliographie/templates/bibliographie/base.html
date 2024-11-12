@@ -22,7 +22,7 @@
         <div class="overlay">
             <header class="hero-header">
                 <div class="logo">
-                    <a href="#">
+                    <a href="{% url 'homepage' %}">
                         <img src="{% static 'images/james_ellroy.jpg' %}" alt="Logo James Ellroy">
                     </a>
                 </div>
@@ -35,9 +35,16 @@
                     </ul>
                 </nav>
                 <div class="user-icon">
-                    <a href="{% url 'login' %}">
-                        <i class="fas fa-user"></i> <!-- Icône utilisateur FontAwesome -->
-                    </a>
+                    {% if user.is_authenticated %}
+                        <span> Bienvenue, {{ user.username }} </span>
+                        <a href="{% url 'logout' %}">
+                            <i class="fas fa-sign-out-alt"></i> 
+                        </a>
+                    {% else %}
+                        <a href="{% url 'login' %}">
+                            <i class="fas fa-user"></i> 
+                        </a>
+                    {% endif %}
                 </div>
             </header>
 
