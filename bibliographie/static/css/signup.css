@@ -1,0 +1,97 @@
+/* Fond du site : sombre et mystérieux */
+body {
+    background-color: #787373; /* Fond plus sombre pour plus de contraste */
+    color: #F8F8F8; /* Texte en blanc cassé pour une meilleure lisibilité */
+    font-family: 'Crimson Pro', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Container pour les formulaires d'inscription */
+.auth-container {
+    width: 400px;
+    padding: 50px;
+    border: 1px solid #8B0000; /* Rouge profond pour rappeler le thème sombre et dramatique */
+    border-radius: 8px;
+    background-color: #2C2C2C; /* Fond gris foncé pour un effet harmonieux avec l'arrière-plan */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Ajoute une ombre pour mettre en relief le formulaire */
+}
+
+/* Titre du formulaire */
+.auth-container h2 {
+    text-align: center;
+    color: #D3B88C; /* Beige pour une touche élégante et un bon contraste avec le fond */
+}
+
+/* Style des groupes de champs */
+.form-group {
+    margin-bottom: 20px; /* Plus d'espace pour un aspect plus aéré */
+}
+
+/* Style des labels */
+label {
+    display: block;
+    font-weight: bold;
+    color: #D3B88C; /* Beige pour un rappel visuel élégant */
+}
+
+/* Champs de texte et de saisie */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 95%;
+    padding: 10px;
+    margin-top: 5px; 
+    border-radius: 4px;
+    border: 1px solid #555; /* Gris plus foncé pour s'harmoniser avec le thème */
+    background-color: #333333; /* Fond sombre des champs pour une meilleure intégration dans le thème */
+    color: #F8F8F8; /* Texte en blanc cassé pour le contraste */
+    text-align: center;
+}
+
+/* Champs au focus */
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border-color: #8B0000; /* Rouge profond pour rappeler le thème et attirer l’attention */
+    outline: none; /* Supprimer le contour par défaut */
+}
+
+/* Bouton de soumission */
+button[type="submit"] {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color: #8B0000; /* Rouge profond pour évoquer le danger et l'intensité */
+    color: #F8F8F8;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Crimson Pro', serif;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #D3B88C; /* Beige pour un effet élégant au survol */
+    transform: scale(1.05); /* Légère augmentation de la taille pour inciter à l’action */
+}
+
+.auth-container p {
+    text-align: center;
+    color: #D3B88C;
+}
+
+.auth-container a {
+    color: #8B0000; /* Rouge profond pour attirer l’attention */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.auth-container a:hover {
+    color: #D3B88C; /* Beige sur le survol pour rester dans l’identité visuelle */
+}

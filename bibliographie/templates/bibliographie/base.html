@@ -36,9 +36,9 @@
                 </nav>
                 <div class="user-icon">
                     {% if user.is_authenticated %}
-                        <span> Bienvenue, {{ user.username }} </span>
+                        <span> {{ user.username }} </span>
                         <a href="{% url 'logout' %}">
-                            <i class="fas fa-sign-out-alt"></i> 
+                            <span>Déconnexion</span> 
                         </a>
                     {% else %}
                         <a href="{% url 'login' %}">
