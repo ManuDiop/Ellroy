@@ -104,3 +104,11 @@
 i {
     color: white;
 }
+
+.user-icon.authenticated i {
+    margin-left: 10px;
+}
+
+.user-icon.authenticated span {
+    font-weight: bold;
+}

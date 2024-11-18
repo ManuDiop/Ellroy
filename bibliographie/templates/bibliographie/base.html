@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="{% static 'css/reset.css' %}">
     <link rel="stylesheet" href="{% static 'css/global.css' %}">
     <link rel="stylesheet" href="{% static 'css/hero-banner.css' %}">
+    <link rel="stylesheet" href="{% static 'css/homepage.css' %}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -34,11 +35,11 @@
                         <li><a href="#">À propos</a></li>
                     </ul>
                 </nav>
-                <div class="user-icon">
+                <div class="user-icon {% if user.is_authenticated %} authenticated {% endif %}">
                     {% if user.is_authenticated %}
-                        <span> {{ user.username }} </span>
+                        <span> {{ user.first_name|default:user.username }} </span>
                         <a href="{% url 'logout' %}">
-                            <span>Déconnexion</span> 
+                            <i class="fas fa-sign-out-alt"></i> 
                         </a>
                     {% else %}
                         <a href="{% url 'login' %}">
