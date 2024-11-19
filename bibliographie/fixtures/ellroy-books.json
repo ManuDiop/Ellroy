@@ -1,0 +1,233 @@
+[
+    {
+      "model": "bibliographie.livre",
+      "fields": {
+        "titre": "Clandestin",
+        "date_publication": 1982,
+        "genre": "Roman noir",
+        "description": "Il n'y a pas que les enquêtes de police qui soient \"clandestines\" dans ce roman de James Ellroy. Il y a aussi les ambitions, les liaisons amoureuses et sexuelles, les pulsions, les violences, les vies anodines, les morts atroces, les rédemptions. elles mèneront l'agent de police freddy underhill sur la piste d'un tueur de femmes pendant \"les dernières années de sa jeunesse\".",
+        "synopsis": "Il n'y a pas que les enquêtes de police qui soient \"clandestines\" dans ce roman de James Ellroy. Il y a aussi les ambitions, les liaisons amoureuses et sexuelles, les pulsions, les violences, les vies anodines, les morts atroces, les rédemptions. elles mèneront l'agent de police freddy underhill sur la piste d'un tueur de femmes pendant \"les dernières années de sa jeunesse\".",
+        "couverture": "couvertures/clandestin.jpg"
+      }
+    },
+    {
+      "model": "bibliographie.livre",
+      "fields": {
+        "titre": "À cause de la nuit",
+        "date_publication": 1984,
+        "genre": "Roman noir",
+        "description": "Il est psychiatre, manipule les solitaires et les faibles. C'est la nuit qu'il exerce son pouvoir maléfique. Plus il soutire d'informations à ses malades, plus sa puissance s'accroît. Jusqu'au jour où ce voyageur de la nuit croise le chemin du sergent Lloyd Hopkins. Après Lune sanglante, A cause de la nuit est le second épisode de la saga de Lloyd Hopkins. Les romans d'Ellroy nous emmènent sur les chemins dévoyés de la drogue et de la folie, dans les sphères troubles de l'intelligence pervertie.",
+        "synopsis": "Il est psychiatre, manipule les solitaires et les faibles. C'est la nuit qu'il exerce son pouvoir maléfique. Plus il soutire d'informations à ses malades, plus sa puissance s'accroît. Jusqu'au jour où ce voyageur de la nuit croise le chemin du sergent Lloyd Hopkins. Après Lune sanglante, A cause de la nuit est le second épisode de la saga de Lloyd Hopkins. Les romans d'Ellroy nous emmènent sur les chemins dévoyés de la drogue et de la folie, dans les sphères troubles de l'intelligence pervertie.",
+        "couverture": "couvertures/nuit.jpg"
+      }
+    },
+    {
+      "model": "bibliographie.livre",
+      "fields": {
+        "titre": "Lune Sanglante",
+        "date_publication": 1984,
+        "genre": "Roman noir",
+        "description": "Un flic aussi fou que le tueur qu’il traque : le roman qui a marqué l’entrée fracassante d’Ellroy en France. Jeune lycéen exalté et amoureux de Kathleen la reine du lycée, Theodore J. Verplank tombe dans un piège tendu par deux de ses camarades : il est victime d’un viol qui le traumatisera à jamais. Vingt ans plus tard, il est devenu photographe, mais aussi tueur en série. Chaque meurtre est marqué par l’envoi d’un cadeau à Kathleen. Le sergent Lloyd Hopkins du LAPD, flic redoutablement intelligent et épris de justice jusqu’à la névrose, ne croit pas aux suicides. Lune sanglante est le premier volume de la trilogie Lloyd Hopkins.",
+        "synopsis": "Un flic aussi fou que le tueur qu’il traque : le roman qui a marqué l’entrée fracassante d’Ellroy en France. Jeune lycéen exalté et amoureux de Kathleen la reine du lycée, Theodore J. Verplank tombe dans un piège tendu par deux de ses camarades : il est victime d’un viol qui le traumatisera à jamais. Vingt ans plus tard, il est devenu photographe, mais aussi tueur en série. Chaque meurtre est marqué par l’envoi d’un cadeau à Kathleen. Le sergent Lloyd Hopkins du LAPD, flic redoutablement intelligent et épris de justice jusqu’à la névrose, ne croit pas aux suicides. Lune sanglante est le premier volume de la trilogie Lloyd Hopkins.",
+        "couverture": "couvertures/sanglante.jpg"
+      }
+    },
+    {
+      "model": "bibliographie.livre",
+      "fields": {
+        "titre": "Un Tueur sur la Route",
+        "date_publication": 1986,
+        "genre": "Roman noir",
+        "description": "\" Il existe une dynamique dans la mise en oeuvre marchande de l'horreur : servez-la garnie d'hyperboles fleuries, et la distance s'installe même si la terreur est présente, puis branchez tous les feux du cliché littéral ou figuratif, et vous ferez naître un sentiment de gratitude parce que le cauchemar prendra fin, un cauchemar au premier abord trop horrible pour être vrai. Je n'obéirai pas à cette dynamique. Je ne vous laisserai pas me prendre en pitié. Charles Manson, qui déblatère dans sa cellule, mérite, lui, la pitié ; Ted Bundy, qui proteste de son innocence pour que les femmes solitaires lui écrivent, mérite le mépris. Je mérite crainte et respect pour être demeuré inviolé jusqu'au bout du voyage que je vois décrire, et puisque la force de mon cauchemar interdit qu'il prenne fin un jour, vous me les offrirez.\" Ainsi parle Martin Michael Plunkett, âgé de 35 ans, coupable de plusieurs dizaines de meurtres sexuels couvrant tout le territoire des Etats-Unis sur une période de dix années.",
+        "synopsis": "\" Il existe une dynamique dans la mise en oeuvre marchande de l'horreur : servez-la garnie d'hyperboles fleuries, et la distance s'installe même si la terreur est présente, puis branchez tous les feux du cliché littéral ou figuratif, et vous ferez naître un sentiment de gratitude parce que le cauchemar prendra fin, un cauchemar au premier abord trop horrible pour être vrai. Je n'obéirai pas à cette dynamique. Je ne vous laisserai pas me prendre en pitié. Charles Manson, qui déblatère dans sa cellule, mérite, lui, la pitié ; Ted Bundy, qui proteste de son innocence pour que les femmes solitaires lui écrivent, mérite le mépris. Je mérite crainte et respect pour être demeuré inviolé jusqu'au bout du voyage que je vois décrire, et puisque la force de mon cauchemar interdit qu'il prenne fin un jour, vous me les offrirez.\" Ainsi parle Martin Michael Plunkett, âgé de 35 ans, coupable de plusieurs dizaines de meurtres sexuels couvrant tout le territoire des Etats-Unis sur une période de dix années.",
+        "couverture": "couvertures/tueur.jpg"
+      }
+    },
+    {
+      "model": "bibliographie.livre",
+      "fields": {
+        "titre": "La Colline aux Suicidés",
+        "date_publication": 1986,
+        "genre": "Roman noir",
+        "description": "Depuis que sa femme et ses filles l'ont quitté, le sergent Lloyd Hopkins est seul. Seul contre ses anciens collègues qui veulent le forcer à prendre une retraite anticipée , seul contre les braqueurs de banque, tueurs de flics , contre les nouveaux chrétiens , contre les tarés, les macs, les fêlés et les obsédés du cul. Hopkins est seul contre lui-même et sa propre folie. Il est prêt au sacrifice. Après Lune sanglante et A cause de la nuit, voici La Colline aux suicidés, nouvelle descente aux enfers du sergent Lloyd Hopkins.",
+        "synopsis": "Depuis que sa femme et ses filles l'ont quitté, le sergent Lloyd Hopkins est seul. Seul contre ses anciens collègues qui veulent le forcer à prendre une retraite anticipée , seul contre les braqueurs de banque, tueurs de flics , contre les nouveaux chrétiens , contre les tarés, les macs, les fêlés et les obsédés du cul. Hopkins est seul contre lui-même et sa propre folie. Il est prêt au sacrifice. Après Lune sanglante et A cause de la nuit, voici La Colline aux suicidés, nouvelle descente aux enfers du sergent Lloyd Hopkins.",
+        "couverture": "couvertures/suicides.jpg"
+      }
+    },
+    {
+      "model": "bibliographie.livre",
+      "fields": {
+        "titre": "Le Dahlia Noir",
+        "date_publication": 1987,
+        "genre": "Roman noir",
+        "description": "Le 15 janvier 1947, dans un terrain vague de Los Angeles, est découvert le corps nu et mutilé, sectionné en deux au niveau de la taille, d'une jeune fille de vingt-deux ans : Betty Short, surnommée \" le dahlia noir \", par un reporter, à cause de son penchant à se vêtir totalement en noir. Le meurtre est resté l'une des énigmes les plus célèbres des annales du crime en Amérique.",
+        "synopsis": "Le 15 janvier 1947, dans un terrain vague de Los Angeles, est découvert le corps nu et mutilé, sectionné en deux au niveau de la taille, d'une jeune fille de vingt-deux ans : Betty Short, surnommée \" le dahlia noir \", par un reporter, à cause de son penchant à se vêtir totalement en noir. Le meurtre est resté l'une des énigmes les plus célèbres des annales du crime en Amérique.",
+        "couverture": "couvertures/dahlia.jpg"
+      }
+    },
+    {
+      "model": "bibliographie.livre",
+      "fields": {
+        "titre": "Le Grand Nulle Part",
+        "date_publication": 1988,
+        "genre": "Roman noir",
+        "description": "Le Grand Nulle Part commence la nuit du premier de l'an 1950 et met en scène trois destins parallèles de policiers. L'inspecteur adjoint Danny Upshaw enquête sur une série de meurtres sexuels avec mutilations. Le lieutenant de la criminelle, Mal Considine, accepte de servir l'ambition d'un aspirant procureur en participant à un dossier sur l'influence communiste à Hollywood. Buzz Meeks, homme de main, ex-flic des narcotiques et pourvoyeur de chair fraîche pour Howard Hughes, se joint à la lutte contre \" la menace rouge \" pour l'argent et le pouvoir. Sans le savoir, les trois hommes ont acheté un billet pour l'enfer.",
+        "synopsis": "Le Grand Nulle Part commence la nuit du premier de l'an 1950 et met en scène trois destins parallèles de policiers. L'inspecteur adjoint Danny Upshaw enquête sur une série de meurtres sexuels avec mutilations. Le lieutenant de la criminelle, Mal Considine, accepte de servir l'ambition d'un aspirant procureur en participant à un dossier sur l'influence communiste à Hollywood. Buzz Meeks, homme de main, ex-flic des narcotiques et pourvoyeur de chair fraîche pour Howard Hughes, se joint à la lutte contre \" la menace rouge \" pour l'argent et le pouvoir. Sans le savoir, les trois hommes ont acheté un billet pour l'enfer.",
+        "couverture": "couvertures/nulle-part.jpg"
+      }
+    },
+    {
+      "model": "bibliographie.livre",
+      "fields": {
+        "titre": "L.A. Confidential",
+        "date_publication": 1990,
+        "genre": "Roman noir",
+        "description": "Trois flics dans le Los Angeles des années cinquante... Ed Exley veut la gloire. Hanté par la réussite de son \" incorruptible \" de père, il est prêt à payer n'importe quel prix pour parvenir à l'éclipser. Bud White a vu son père tuer sa mère. Aujourd'hui, il est devenu un bloc de fureur, une bombe à retardement portant un insigne. \" Poubelle \" Jack Vincennes terrorise les stars de cinéma pour le compte d'un magazine à scandales. Un secret enfoui dans sa mémoire le ronge. Il fera tout pour ne pas le laisser remonter à la surface. Trois flics pris dans un tourbillon, un cauchemar qui teste leur loyauté et leur courage, un cauchemar d'où toute pitié est exclue et qui ne permet à personne de survivre.",
+        "synopsis": "Trois flics dans le Los Angeles des années cinquante... Ed Exley veut la gloire. Hanté par la réussite de son \" incorruptible \" de père, il est prêt à payer n'importe quel prix pour parvenir à l'éclipser. Bud White a vu son père tuer sa mère. Aujourd'hui, il est devenu un bloc de fureur, une bombe à retardement portant un insigne. \" Poubelle \" Jack Vincennes terrorise les stars de cinéma pour le compte d'un magazine à scandales. Un secret enfoui dans sa mémoire le ronge. Il fera tout pour ne pas le laisser remonter à la surface. Trois flics pris dans un tourbillon, un cauchemar qui teste leur loyauté et leur courage, un cauchemar d'où toute pitié est exclue et qui ne permet à personne de survivre.",
+        "couverture": "couvertures/confidential.jpg"
+      }
+    },
+    {
+      "model": "bibliographie.livre",
+      "fields": {
+        "titre": "White Jazz",
+        "date_publication": 1992,
+        "genre": "Roman noir",
+        "description": "Los Angeles, fin des années cinquante. Ed Exley cherche à éliminer de la course aux élections municipales Morton Diskant, opposé à l'éviction des Mexicains habitant Chavez Ravine. Des fourrures ont été volées dans un entrepôt pour un montant de deux millions de dollars. Dudley Smith est chargé de l'affaire. Un cambriolage se produit chez les Kafesjian, trafiquants de drogue, propriétaires de laveries et indicateurs privilegiés de la brigade des stupéfiants. Un tueur de clochards, le \"feu follet fou\", rôde dans la ville. Le lieutenant Dave Klein, du LAPD, passe d'une affaire à l'autre. Bien des années après, il se souvient. «Je suis vieux, j'ai peur d'oublier. J'ai tué, j'ai trahi, j'ai moissonné l'horreur. Je veux sombrer avec la musique.»",
+        "synopsis": "Los Angeles, fin des années cinquante. Ed Exley cherche à éliminer de la course aux élections municipales Morton Diskant, opposé à l'éviction des Mexicains habitant Chavez Ravine. Des fourrures ont été volées dans un entrepôt pour un montant de deux millions de dollars. Dudley Smith est chargé de l'affaire. Un cambriolage se produit chez les Kafesjian, trafiquants de drogue, propriétaires de laveries et indicateurs privilegiés de la brigade des stupéfiants. Un tueur de clochards, le \"feu follet fou\", rôde dans la ville. Le lieutenant Dave Klein, du LAPD, passe d'une affaire à l'autre. Bien des années après, il se souvient. «Je suis vieux, j'ai peur d'oublier. J'ai tué, j'ai trahi, j'ai moissonné l'horreur. Je veux sombrer avec la musique.»",
+        "couverture": "couvertures/jazz.jpg"
+      }
+    },
+    {
+      "model": "bibliographie.livre",
+      "fields": {
+        "titre": "American Tabloid",
+        "date_publication": 1995,
+        "genre": "Roman noir",
+        "description": "Ancien flic, Pete Bondurant est un tueur. Il alimente le journal à potins du producteur Howard Hughes et dirige avec sa maîtresse Gail une officine de flagrants délits d'adultère. Kemper Boyd, du FBI, a été chargé par son patron Hoover d'infiltrer une commission d'enquête sur les rackets syndicalistes, tandis que son collègue Ward J. Littell espionne les réseaux communistes. John Stanton, agent de la CIA, est chargé de former militairement les expulsés cubains pour une opération de représailles.",
+        "synopsis": "Ancien flic, Pete Bondurant est un tueur. Il alimente le journal à potins du producteur Howard Hughes et dirige avec sa maîtresse Gail une officine de flagrants délits d'adultère. Kemper Boyd, du FBI, a été chargé par son patron Hoover d'infiltrer une commission d'enquête sur les rackets syndicalistes, tandis que son collègue Ward J. Littell espionne les réseaux communistes. John Stanton, agent de la CIA, est chargé de former militairement les expulsés cubains pour une opération de représailles.",
+        "couverture": "couvertures/tabloid.jpg"
+      }
+    },
+    {
+      "model": "bibliographie.livre",
+      "fields": {
+        "titre": "Ma part d'Ombre",
+        "date_publication": 1996,
+        "genre": "Roman noir",
+        "description": "Ma Part d'ombre est le récit d'une double enquête que mène Ellroy sur l'assassinat de sa mère, tuée le 22 juin 1958, et sur sa propre vie d'enfant orphelin, d'adolescent perturbé et d'écrivain hanté. Voyage à travers ses souvenirs les plus secrets, ce livre est aussi un reportage sur le crime en Amérique, et en particulier les meurtres de femmes, d'autant plus saisissant qu'Ellroy a travaillé aux côtés d'un policier de la brigade criminelle de Los Angeles, Bill Stoner, qui a tissé des liens de plus en plus forts avec l'auteur au fil des mois.",
+        "synopsis": "Ma Part d'ombre est le récit d'une double enquête que mène Ellroy sur l'assassinat de sa mère, tuée le 22 juin 1958, et sur sa propre vie d'enfant orphelin, d'adolescent perturbé et d'écrivain hanté. Voyage à travers ses souvenirs les plus secrets, ce livre est aussi un reportage sur le crime en Amérique, et en particulier les meurtres de femmes, d'autant plus saisissant qu'Ellroy a travaillé aux côtés d'un policier de la brigade criminelle de Los Angeles, Bill Stoner, qui a tissé des liens de plus en plus forts avec l'auteur au fil des mois.",
+        "couverture": "couvertures/ombre.jpg"
+      }
+    },
+    {
+      "model": "bibliographie.livre",
+      "fields": {
+        "titre": "American Death Trip",
+        "date_publication": 2001,
+        "genre": "Roman noir",
+        "description": "Dallas, novembre 63. Le cœur du rêve américain explose. Un jeune flic arrive de Las Vegas avec 6000 dollars en liquide et un sale boulot à exécuter. Il ne sait pas qu'il va faire partie du complot visant à étouffer la vérité sur l'assassinat de Kennedy. Il s'appelle Wayne Tedrow. Cinq années dans les coulisses de la politique vont le conduire de Dallas au Vietnam, en passant par le su des États-Unis. Cinq années avec J. Edgar Hoover, Howard Hughes, la Mafia et le Ku Klux Klan. American Death Trip est le second volet de la trilogie Underworld USA initiée avec American tabloid. Le cauchemar américain nourri des coïncidences de l'Histoire, les années 60 passées au crible par Ellroy.",
+        "synopsis": "Dallas, novembre 63. Le cœur du rêve américain explose. Un jeune flic arrive de Las Vegas avec 6000 dollars en liquide et un sale boulot à exécuter. Il ne sait pas qu'il va faire partie du complot visant à étouffer la vérité sur l'assassinat de Kennedy. Il s'appelle Wayne Tedrow. Cinq années dans les coulisses de la politique vont le conduire de Dallas au Vietnam, en passant par le su des États-Unis. Cinq années avec J. Edgar Hoover, Howard Hughes, la Mafia et le Ku Klux Klan. American Death Trip est le second volet de la trilogie Underworld USA initiée avec American tabloid. Le cauchemar américain nourri des coïncidences de l'Histoire, les années 60 passées au crible par Ellroy.",
+        "couverture": "couvertures/death-trip.jpg"
+      }
+    },
+    {
+      "model": "bibliographie.livre",
+      "fields": {
+        "titre": "Destination Morgue",
+        "date_publication": 2004,
+        "genre": "Roman noir",
+        "description": "James Ellroy continue la psychanalyse sauvage de sa propre vie et de sa ville natale (Los Angeles) dans cette série de textes percutants, comme \"Où je trouve mes idées bizarres\" , \"Ma vie de branleur\" ou \"J'ai les infos\". Il passe la boxe au crible dans \"Sport sanglant\", et dans \"Stephanie\", il redit sa fascination pour les victimes de crimes sexuels. Il parle aussi de son père, de la peine de mort, de la justice, de ses provocations, avec force, voire avec brutalité, dans un style coup de poing qui n'appartient qu'à lui.",
+        "synopsis": "James Ellroy continue la psychanalyse sauvage de sa propre vie et de sa ville natale (Los Angeles) dans cette série de textes percutants, comme \"Où je trouve mes idées bizarres\" , \"Ma vie de branleur\" ou \"J'ai les infos\". Il passe la boxe au crible dans \"Sport sanglant\", et dans \"Stephanie\", il redit sa fascination pour les victimes de crimes sexuels. Il parle aussi de son père, de la peine de mort, de la justice, de ses provocations, avec force, voire avec brutalité, dans un style coup de poing qui n'appartient qu'à lui.",
+        "couverture": "couvertures/morgue.jpg"
+      }
+    },
+    {
+      "model": "bibliographie.livre",
+      "fields": {
+        "titre": "Tijuna Mon Amour",
+        "date_publication": 2007,
+        "genre": "Roman noir",
+        "description": "Après Crimes en série et Destination morgue, ce troisième recueil clôt - provisoirement - la publication des textes courts de James Ellroy. On connaît l'intérêt de l'auteur pour les faits divers criminels et en particulier les affaires qui défraient la chronique. Cette obsession constitue le thème central des articles et fictions réunis dans Tijuana mon amour. Qu'il retrace l'enquête sur la mort de la fille d'un présentateur de radio, brosse le portrait d'un célèbre district attorney ou mette en scène l'un de ses héros préférés, l'intarissable rédacteur en chef de la gazette à scandales l'Indiscret, Ellroy n'aime rien tant qu'explorer \"la jungle du glamour\" et en rapporter des trouvailles saisissantes, scabreuses, au goût amer et à l'odeur nauséabonde. On y croisera le célèbre gangster Mickey Cohen, Lana Turner et son amant Johnny Stompanato, Rock Hudson, Frank Sinatra et quelques figures d'acteurs ou autres \" people \" de seconde zone, tous tombés dans la boue du scandale au point que certains ne s'en relèveront pas. On retrouve avec jubilation la patte caractéristique de l'auteur du Dahlia noir dans ces portraits au vitriol des flics, des acteurs, de la pègre et des médias. A travers ces trois articles et six nouvelles, c'est la face noire d'une Californie schizophrène qui est radiographiée avec une acuité rageuse, provocatrice, brillantissime.",
+        "synopsis": "Après Crimes en série et Destination morgue, ce troisième recueil clôt - provisoirement - la publication des textes courts de James Ellroy. On connaît l'intérêt de l'auteur pour les faits divers criminels et en particulier les affaires qui défraient la chronique. Cette obsession constitue le thème central des articles et fictions réunis dans Tijuana mon amour. Qu'il retrace l'enquête sur la mort de la fille d'un présentateur de radio, brosse le portrait d'un célèbre district attorney ou mette en scène l'un de ses héros préférés, l'intarissable rédacteur en chef de la gazette à scandales l'Indiscret, Ellroy n'aime rien tant qu'explorer \"la jungle du glamour\" et en rapporter des trouvailles saisissantes, scabreuses, au goût amer et à l'odeur nauséabonde. On y croisera le célèbre gangster Mickey Cohen, Lana Turner et son amant Johnny Stompanato, Rock Hudson, Frank Sinatra et quelques figures d'acteurs ou autres \" people \" de seconde zone, tous tombés dans la boue du scandale au point que certains ne s'en relèveront pas. On retrouve avec jubilation la patte caractéristique de l'auteur du Dahlia noir dans ces portraits au vitriol des flics, des acteurs, de la pègre et des médias. A travers ces trois articles et six nouvelles, c'est la face noire d'une Californie schizophrène qui est radiographiée avec une acuité rageuse, provocatrice, brillantissime.",
+        "couverture": "couvertures/tijuana.jpg"
+      }
+    },
+    {
+      "model": "bibliographie.livre",
+      "fields": {
+        "titre": "Underworld USA",
+        "date_publication": 2009,
+        "genre": "Roman noir",
+        "description": "Eté 1968 : Martin Luther King et Robert Kennedy ont été les victimes de conspirations meurtrières. La Convention démocrate de Chicago est sabotée par des escadrons de nervis spécialistes en coups fourrés. Les militants noirs se préparent à l’insurrection dans les quartiers sud de Los Angeles. Le FBI, sous la houlette de J. Edgar Hoover, utilise tous les moyens pour les infiltrer, les diffamer et les détruire. Howard Hughes s’est fait escroquer dans le rachat des casinos de Las Vegas par la mafia. Et, à la croisée de tous ces événements, le Destin a placé trois hommes : Dwight Holly, Wayne Tedrow et Don Crutchfield, dont les vies vont s'entrechoquer sur la piste de Joan Rosen Klein, la « Déesse rouge ».",
+        "synopsis": "Eté 1968 : Martin Luther King et Robert Kennedy ont été les victimes de conspirations meurtrières. La Convention démocrate de Chicago est sabotée par des escadrons de nervis spécialistes en coups fourrés. Les militants noirs se préparent à l’insurrection dans les quartiers sud de Los Angeles. Le FBI, sous la houlette de J. Edgar Hoover, utilise tous les moyens pour les infiltrer, les diffamer et les détruire. Howard Hughes s’est fait escroquer dans le rachat des casinos de Las Vegas par la mafia. Et, à la croisée de tous ces événements, le Destin a placé trois hommes : Dwight Holly, Wayne Tedrow et Don Crutchfield, dont les vies vont s'entrechoquer sur la piste de Joan Rosen Klein, la « Déesse rouge ».",
+        "couverture": "couvertures/underworld.jpg"
+      }
+    },
+    {
+      "model": "bibliographie.livre",
+      "fields": {
+        "titre": "La Malédiction Hilliker",
+        "date_publication": 2010,
+        "genre": "Roman noir",
+        "description": "De la mère aux épouses et aux amantes, toute l'oeuvre d'Ellroy procède du féminin et trouve sa source dans cet héritage maternel : l'obsession. En six mouvements d'une tumultueuse symphonie, James Ellroy revisite les moments clés de ses relations avec les femmes qui ont compté dans sa vie, à commencer par la première d'entre toutes : Geneva Hilliker Ellroy, objet d'une \"malédiction\" que son fils lança contre elle, enfant, souhaitant la voir morte. Après Ma part d'ombre et la vaine traque de l'assassin de sa mère, Ellroy entreprend une autre forme d'exorcisme : annuler cette malédiction à travers la quête des autres femmes, passer de \"Elle\" à \"Elles\". Les femmes comme cristallisation du désir, objets de fantasmes libérateurs ou destructeurs, sources d'influence ou d'inspiration littéraire, sont au centre de ce récit dans lequel Ellroy se raconte avec une féroce absence de complaisance, qui prend parfois l'allure d'une poignante confession. Mélange de rigueur, de mysticisme et de sexualité, ce livre, à la forme dépouillée et au contenu électrique, rassemble toutes les fulgurances et les faiblesses d'un homme hors du commun. C'est aussi un indispensable mode d'emploi littéraire pour qui s'intéresse à l'oeuvre d'Ellroy.",
+        "synopsis": "De la mère aux épouses et aux amantes, toute l'oeuvre d'Ellroy procède du féminin et trouve sa source dans cet héritage maternel : l'obsession. En six mouvements d'une tumultueuse symphonie, James Ellroy revisite les moments clés de ses relations avec les femmes qui ont compté dans sa vie, à commencer par la première d'entre toutes : Geneva Hilliker Ellroy, objet d'une \"malédiction\" que son fils lança contre elle, enfant, souhaitant la voir morte. Après Ma part d'ombre et la vaine traque de l'assassin de sa mère, Ellroy entreprend une autre forme d'exorcisme : annuler cette malédiction à travers la quête des autres femmes, passer de \"Elle\" à \"Elles\". Les femmes comme cristallisation du désir, objets de fantasmes libérateurs ou destructeurs, sources d'influence ou d'inspiration littéraire, sont au centre de ce récit dans lequel Ellroy se raconte avec une féroce absence de complaisance, qui prend parfois l'allure d'une poignante confession. Mélange de rigueur, de mysticisme et de sexualité, ce livre, à la forme dépouillée et au contenu électrique, rassemble toutes les fulgurances et les faiblesses d'un homme hors du commun. C'est aussi un indispensable mode d'emploi littéraire pour qui s'intéresse à l'oeuvre d'Ellroy.",
+        "couverture": "couvertures/hilliker.jpg"
+      }
+    },
+    {
+      "model": "bibliographie.livre",
+      "fields": {
+        "titre": "Extorsion",
+        "date_publication": 2014,
+        "genre": "Roman noir",
+        "description": "Fred Otash était un flic véreux de Los Angeles devenu détective privé, maître chanteur et proxénète. Il était surtout connu pour avoir colporté des ragots sur le tout Hollywood pour le compte du magazine Confidential. Avec son goût pour les seconds couteaux à la personnalité trouble, Ellroy s’est emparé d’Otash et en a fait un personnage de fiction qui apparaît dans American Death Trip et Underworld USA. Il lui donne le premier rôle dans Extorsion en l’imaginant au purgatoire, torturé par ses anciennes victimes, de Marilyn Monroe à Montgomery Clift en passant par Ava Gardner. Freddy O. ne pourra obtenir une remise de peine et « accéder au nuage supérieur » que s’il confesse ses péchés. Pour cela il va solliciter l’aide d’ « un plumitif nommé Ellroy » …",
+        "synopsis": "Fred Otash était un flic véreux de Los Angeles devenu détective privé, maître chanteur et proxénète. Il était surtout connu pour avoir colporté des ragots sur le tout Hollywood pour le compte du magazine Confidential. Avec son goût pour les seconds couteaux à la personnalité trouble, Ellroy s’est emparé d’Otash et en a fait un personnage de fiction qui apparaît dans American Death Trip et Underworld USA. Il lui donne le premier rôle dans Extorsion en l’imaginant au purgatoire, torturé par ses anciennes victimes, de Marilyn Monroe à Montgomery Clift en passant par Ava Gardner. Freddy O. ne pourra obtenir une remise de peine et « accéder au nuage supérieur » que s’il confesse ses péchés. Pour cela il va solliciter l’aide d’ « un plumitif nommé Ellroy » …",
+        "couverture": "couvertures/extorsion.jpg"
+      }
+    },
+    {
+      "model": "bibliographie.livre",
+      "fields": {
+        "titre": "Perfidia",
+        "date_publication": 2014,
+        "genre": "Roman noir",
+        "description": "Los Angeles, à la veille de Pearl Harbor : la haine antijaponaise est prête à exploser. La découverte des cadavres d’une famille d’origine japonaise incite le LAPD, notoirement corrompu et harcelé par le FBI, à fabriquer un coupable pour se débarrasser du problème. Dudley Smith, l’inoubliable « méchant » du premier Quatuor, est sur l’affaire. Une affaire qui s’annonce lucrative, tant l’hystérie du climat de guerre se prête aux machinations, au détriment des Américains d’origine japonaise. L'un d'entre eux, Hideo Ashida, de la police scientifique, est une personnalité subtile et tiraillée par les sentiments troubles qu'il éprouve à l'égard de Dudley. De son côté, William Parker, jeune capitaine alcoolique, est décidé à anticiper le combat anticommuniste qui se profile pour l’après-guerre. Pour cela, il lui faut une taupe, un agent provocateur. Ce sera Kay Lake, héroïne du Dahlia noir, brillante et téméraire, qui entretient des relations compliquées avec un flic ambigu : Lee Blanchard. Tous ces personnages, engloutis dans l’affaire Watanabe, se laissent entraîner dans une inextricable mais mortelle partie d’échecs.",
+        "synopsis": "Los Angeles, à la veille de Pearl Harbor : la haine antijaponaise est prête à exploser. La découverte des cadavres d’une famille d’origine japonaise incite le LAPD, notoirement corrompu et harcelé par le FBI, à fabriquer un coupable pour se débarrasser du problème. Dudley Smith, l’inoubliable « méchant » du premier Quatuor, est sur l’affaire. Une affaire qui s’annonce lucrative, tant l’hystérie du climat de guerre se prête aux machinations, au détriment des Américains d’origine japonaise. L'un d'entre eux, Hideo Ashida, de la police scientifique, est une personnalité subtile et tiraillée par les sentiments troubles qu'il éprouve à l'égard de Dudley. De son côté, William Parker, jeune capitaine alcoolique, est décidé à anticiper le combat anticommuniste qui se profile pour l’après-guerre. Pour cela, il lui faut une taupe, un agent provocateur. Ce sera Kay Lake, héroïne du Dahlia noir, brillante et téméraire, qui entretient des relations compliquées avec un flic ambigu : Lee Blanchard. Tous ces personnages, engloutis dans l’affaire Watanabe, se laissent entraîner dans une inextricable mais mortelle partie d’échecs.",
+        "couverture": "couvertures/perfidia.jpg"
+      }
+    },
+    {
+      "model": "bibliographie.livre",
+      "fields": {
+        "titre": "La Tempête qui vient",
+        "date_publication": 2019,
+        "genre": "Roman noir",
+        "description": "Après Perfidia, le deuxième volet du nouveau Quatuor de Los Angeles ! Janvier 1942. Los Angeles est encore sous le choc de l'attaque de Pearl Harbor. Les Américains d'origine japonaise sont massivement arrêtés tandis que des pluies torrentielles s'abattent sur la ville. Un corps est découvert dans Griffith Park à la faveur d'un glissement de terrain. C'est le début du chaos : entre un braquage de grande ampleur qui refait surface, des nazis surexcités, des espions, des trafics de drogue, des flics corrompus, des chassés-croisés amoureux et les \"usual suspects\" Dudley Smith et le sergent Jackson du LAPD, la troublante Kay Lake, le génie de la police scientifique Hideo Ashida, ainsi que la flamboyante Joan Conville, le maestro Ellroy orchestre une brillante et inoubliable symphonie.",
+        "synopsis": "Après Perfidia, le deuxième volet du nouveau Quatuor de Los Angeles ! Janvier 1942. Los Angeles est encore sous le choc de l'attaque de Pearl Harbor. Les Américains d'origine japonaise sont massivement arrêtés tandis que des pluies torrentielles s'abattent sur la ville. Un corps est découvert dans Griffith Park à la faveur d'un glissement de terrain. C'est le début du chaos : entre un braquage de grande ampleur qui refait surface, des nazis surexcités, des espions, des trafics de drogue, des flics corrompus, des chassés-croisés amoureux et les \"usual suspects\" Dudley Smith et le sergent Jackson du LAPD, la troublante Kay Lake, le génie de la police scientifique Hideo Ashida, ainsi que la flamboyante Joan Conville, le maestro Ellroy orchestre une brillante et inoubliable symphonie.",
+        "couverture": "couvertures/tempete.jpg"
+      }
+    },
+    {
+      "model": "bibliographie.livre",
+      "fields": {
+        "titre": "Panique Générale",
+        "date_publication": 2021,
+        "genre": "Roman noir",
+        "description": "Après Extorsion, James Ellroy raconte la suite des confessions de l'abominable Freddy Otash, maître chanteur, voyeur et proxénète, un concentré d'humour noir inspiré par la vie du véritable Freddy Otash. Pour tout savoir sur les turpitudes d'Hollywood, réelles ou inventées!",
+        "synopsis": "Après Extorsion, James Ellroy raconte la suite des confessions de l'abominable Freddy Otash, maître chanteur, voyeur et proxénète, un concentré d'humour noir inspiré par la vie du véritable Freddy Otash. Pour tout savoir sur les turpitudes d'Hollywood, réelles ou inventées!",
+        "couverture": "couvertures/panique.jpg"
+      }
+    },
+    {
+      "model": "bibliographie.livre",
+      "fields": {
+        "titre": "Les Enchanteurs",
+        "date_publication": 2023,
+        "genre": "Roman noir",
+        "description": "Los Angeles, 4 août 1962. La ville est en proie à la canicule, Marylin Monroe vient de succomber à une overdose dans sa villa, et Gwen Perloff, une actrice de série B, est kidnappée dans d'étranges circonstances. Cela suffit à plonger le LAPD dans l'effervescence. Le Chef Bill Parker fait appel à une éminence grise d’Hollywood, l’électron libre Freddy Otash. Mais Jack et Bobby Kennedy sont eux aussi affolés par la mort de Marilyn qu’ils veulent discréditer (y compris post mortem) afin de ne pas donner prise à des rumeurs d’implications sexuelles avec elle. Par ailleurs, le LAPD veut discréditer les Kennedy, et surtout Bobby, dans l’éventualité où ce dernier reviendrait sur sa promesse de donner au Chef Parker la direction du FBI. Discréditer les Kennedy, c’est aussi ce que veut faire le chef du syndicat des camionneurs, Jimmy Hoffa, qui a gardé une rancune tenace contre Bobby, le procureur général des États-Unis. Tout cela est-il bien clair ? Freddy O., lui, a l’habitude de naviguer dans ces eaux troubles et de servir plusieurs maîtres à la fois. Pour l’argent ? Certainement. Mais aussi, et surtout, pour l’adrénaline. C’est le Trip du Traqueur, le Vice du Voyeur, la Folie du Fouineur en 75 chapitres et au moins deux histoires d’amour.",
+        "synopsis": "Los Angeles, 4 août 1962. La ville est en proie à la canicule, Marylin Monroe vient de succomber à une overdose dans sa villa, et Gwen Perloff, une actrice de série B, est kidnappée dans d'étranges circonstances. Cela suffit à plonger le LAPD dans l'effervescence. Le Chef Bill Parker fait appel à une éminence grise d’Hollywood, l’électron libre Freddy Otash. Mais Jack et Bobby Kennedy sont eux aussi affolés par la mort de Marilyn qu’ils veulent discréditer (y compris post mortem) afin de ne pas donner prise à des rumeurs d’implications sexuelles avec elle. Par ailleurs, le LAPD veut discréditer les Kennedy, et surtout Bobby, dans l’éventualité où ce dernier reviendrait sur sa promesse de donner au Chef Parker la direction du FBI. Discréditer les Kennedy, c’est aussi ce que veut faire le chef du syndicat des camionneurs, Jimmy Hoffa, qui a gardé une rancune tenace contre Bobby, le procureur général des États-Unis. Tout cela est-il bien clair ? Freddy O., lui, a l’habitude de naviguer dans ces eaux troubles et de servir plusieurs maîtres à la fois. Pour l’argent ? Certainement. Mais aussi, et surtout, pour l’adrénaline. C’est le Trip du Traqueur, le Vice du Voyeur, la Folie du Fouineur en 75 chapitres et au moins deux histoires d’amour.",
+        "couverture": "couvertures/enchanteurs.jpg"
+      }
+    }
+  ]

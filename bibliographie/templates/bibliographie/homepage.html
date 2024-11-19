@@ -26,9 +26,9 @@
                     <img src="{{ livre.couverture.url }}" alt="Couverture de {{ livre.titre }}">
                 {% endif %}
                 <h3>{{ livre.titre }}</h3>
-                <p><strong>Date de publication :</strong> {{ livre.date_publication }}</p>
+                <p>{{ livre.date_publication }}</p>
                 <p>{{ livre.description|truncatewords:20 }}</p>
-                <a href="{% url 'detail_livre' livre.pk %}">Voir plus de détails</a>
+                <a href="#">Voir plus de détails</a>
             </div>
         {% endfor %}
     </div>

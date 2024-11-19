@@ -2,7 +2,7 @@ from django.db import models
 
 class Livre(models.Model):
     titre = models.CharField(max_length=255)
-    date_publication = models.DateField()
+    date_publication = models.IntegerField()
     genre = models.CharField(max_length=100, blank=True, null=True)
     description = models.TextField(blank=True, null=True)
     couverture = models.ImageField(upload_to='couvertures/', blank=True, null=True)  # Champ pour l'image de couverture
