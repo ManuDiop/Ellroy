@@ -1,0 +1,74 @@
+{% load static %}
+
+{% block head %} 
+    <title>{{ livre.titre }}</title>
+    <link rel="stylesheet" href="{% static 'css/detail-livre.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+{% endblock %}
+
+
+{% block content %} 
+
+<header>
+    <div class="logo">
+        <a href="{% url 'homepage' %}">
+            <img src="{% static 'images/james_ellroy.jpg' %}" alt="Logo James Ellroy">
+        </a>
+    </div>
+    <nav class="navigation">
+        <!-- <ul>
+            <li><a href="#">Biographie</a></li>
+            <li><a href="#">Bibliographie</a></li>
+            <li><a href="#">À propos</a></li>
+        </ul> -->
+    </nav>
+    <div class="user-icon {% if user.is_authenticated %} authenticated {% endif %}">
+        {% if user.is_authenticated %}
+            <span> {{ user.first_name|default:user.username }} </span>
+            <a href="{% url 'logout' %}">
+                <i class="fas fa-sign-out-alt"></i> 
+            </a>
+        {% else %}
+            <a href="{% url 'login' %}">
+                <i class="fas fa-user"></i> 
+            </a>
+        {% endif %}
+    </div>
+</header>
+
+<section class="detail-livre">
+    <h2>{{ livre.titre }}</h2>
+    <div class="photo-date">
+        {% if livre.couverture %}
+        <img src="{{ livre.couverture.url }}" alt="Couverture de {{ livre.titre }}">
+        {% endif %}
+        <p>
+            {{ livre.date_publication }}<br>            
+        </p>
+    </div>
+    <div class="synopsis">
+        <p>
+            {{ livre.synopsis }}
+        </p>
+    </div>
+</section>
+
+<section class="commentaire">
+    <div class="form">
+        <h3>Partagez vos impressions sur ce livre</h3>
+        <form action="" method="post">
+            {% csrf_token %}
+            <label for="auteur">Votre nom:</label>
+            <input type="text" id="auteur" name="auteur" required>
+            <label for="contenu">Votre commentaire:</label>
+            <textarea id="contenu" name="contenu" required></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+    </div>
+</section>
+    
+{% endblock %}

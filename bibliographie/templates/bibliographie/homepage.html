@@ -3,6 +3,7 @@
 
 {% block title %}L.A Noir - Accueil{% endblock %}
 
+
 {% block content %}
 <section class="biographie">
     <h2>Découvrez l'histoire du maitre du roman noir</h2>
@@ -28,7 +29,7 @@
                 <h3>{{ livre.titre }}</h3>
                 <p>{{ livre.date_publication }}</p>
                 <p>{{ livre.description|truncatewords:20 }}</p>
-                <a href="#">Voir plus de détails</a>
+                <a href="{% url 'detail_livre' livre.id %}">Voir plus de détails</a>
             </div>
         {% endfor %}
     </div>

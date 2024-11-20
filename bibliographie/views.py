@@ -1,4 +1,4 @@
-from django.shortcuts import render, redirect
+from django.shortcuts import render, redirect, get_object_or_404
 from django.contrib.auth import authenticate, login, logout
 from django.contrib import messages
 from .models import Livre
@@ -14,7 +14,7 @@ def login_view(request):
             messages.success(request, 'Vous êtes connecté.')
             return redirect('homepage')
         else:
-            messages.error(request, 'Nom d\'utilisateur ou mot de passe incorrects.')
+            messages.error(request, 'Nom d\'utilisateur ou mot de passe incorrect.')
 
     return render(request, 'bibliographie/login.html')
 
@@ -29,3 +29,7 @@ def logout_view(request):
 def homepage(request):
     livres = Livre.objects.all()
     return render(request, 'bibliographie/homepage.html', {'livres': livres})
+
+def detail_livre(request, livre_id):
+    livre = get_object_or_404(Livre, pk=livre_id)
+    return render(request, 'bibliographie/detail-livre.html', {'livre': livre})
