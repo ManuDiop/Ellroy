@@ -82,7 +82,7 @@
                 {% if commentaire.utilisateur == user %}
                 <form method="post" action="{% url 'delete_comment' commentaire.id %}">
                     {% csrf_token %}
-                    <button type="submit" class="supprimer">
+                    <button type="submit" class="supprimer" id="delete-comment">
                         <i class="fa-solid fa-trash-can"></i>
                     </button>
                 </form>

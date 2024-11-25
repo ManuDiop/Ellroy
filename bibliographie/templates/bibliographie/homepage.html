@@ -6,7 +6,7 @@
 
 {% block content %}
 <section class="biographie">
-    <h2>Découvrez l'histoire du maitre du roman noir</h2>
+    <h2 id="biographie">Découvrez l'histoire du maitre du roman noir</h2>
     <div class="photo-et-texte">
         <img src="{% static 'images/ellroy2.jpg' %}" alt="Photo de James Ellroy">
         <p class="intro">
@@ -19,7 +19,7 @@
 </section>
 
 <section class="liste-livres">
-    <h2>Bibliographie de James Ellroy</h2>
+    <h2 id="bibliographie">Bibliographie de James Ellroy</h2>
     <div class="livres-container">
         {% for livre in livres %}
             <div class="livre-carte">
