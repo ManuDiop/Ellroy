@@ -41,6 +41,7 @@
 </header>
 
 <section class="detail-livre">
+
     <h2>{{ livre.titre }}</h2>
     <div class="photo-date">
         {% if livre.couverture %}
@@ -57,18 +58,41 @@
     </div>
 </section>
 
-<section class="commentaire">
-    <div class="form">
-        <h3>Partagez vos impressions sur ce livre</h3>
-        <form action="" method="post">
+<section class="commentaire-container">   
+    <div class="commentaires">
+
+        <h3>Partagez votre avis sur cet ouvrage</h3>
+        <!-- Formulaire pour ajouter un commentaire -->
+        {% if user.is_authenticated %}
+        <form method="post">
             {% csrf_token %}
-            <label for="auteur">Votre nom:</label>
-            <input type="text" id="auteur" name="auteur" required>
-            <label for="contenu">Votre commentaire:</label>
-            <textarea id="contenu" name="contenu" required></textarea>
-            <button type="submit">Envoyer</button>
+            {{ form.as_p }}
+            <button type="submit" class="publier">Publier</button>
         </form>
+        {% else %}
+        <p><a href="{% url 'login' %}">Connectez-vous</a> pour ajouter un commentaire.</p>
+        {% endif %}
+
+        <ul>
+            {% for commentaire in commentaires %}
+            <li>
+                <span class="username">{{ commentaire.utilisateur.username }}</span>
+                <span class="date">le {{ commentaire.date|date:"d/m/Y" }}</span><br>
+                <span class="contenu">{{ commentaire.contenu }}</span>
+                {% if commentaire.utilisateur == user %}
+                <form method="post" action="{% url 'delete_comment' commentaire.id %}">
+                    {% csrf_token %}
+                    <button type="submit" class="supprimer">
+                        <i class="fa-solid fa-trash-can"></i>
+                    </button>
+                </form>
+                {% endif %}    
+            </li>
+            {% endfor %}
+        </ul>
+        
     </div>
-</section>
     
+</section>
+<script src="{% static 'js/app.js' %}"></script>
 {% endblock %}

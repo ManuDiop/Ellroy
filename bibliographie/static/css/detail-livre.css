@@ -78,7 +78,7 @@ i {
     height: 600px;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-    margin-bottom: 2rem
+    margin-bottom: 0.5rem
 }
 
 .photo-date p {
@@ -94,6 +94,95 @@ i {
     margin-top: 20px;
 }
 
+.commentaire-container {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 40px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.commentaire-container h3 {
+    width: auto;
+    text-align: center;
+    font-family: 'Special Elite';
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+}
+
+.commentaire-container form {
+    margin-bottom: 20px;
+}
+
+.commentaire-container textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #555;
+    background-color: white;
+    color: black;
+    margin-bottom: 10px;
+    font-family: 'Crimson Pro', serif;
+    font-size: 1rem;
+}
+
+.commentaire-container button[class="publier"] {
+    display: block;
+    margin: 0 auto;
+    background-color: #8B0000;
+    color: #F8F8F8;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.commentaire-container button[type="publier"]:hover {
+    background-color: #D3B88C;
+}
+
+.commentaire-container button[class="supprimer"] {
+    background-color: #8B0000;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.commentaires ul {
+    list-style: none;
+    padding: 0;
+}
+
+.commentaires li {
+    background-color: white;
+    border: 1px solid #555;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.commentaires .username {
+    font-family: 'Special Elite';
+    color: black;
+    font-size: 1.1rem;
+}
+
+.commentaires .date {
+    font-size: 0.8rem;
+    color: #555;
+}
+
+.commenraires .contenu {
+    font-family: 'Crimson Pro', serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+
 @media (max-width: 768px) {
     .photo-date {
         flex-direction: column;
@@ -102,5 +191,9 @@ i {
 
     .photo-date img {
         margin-bottom: 10px;
+    }
+
+    .commentaire-container {
+        padding: 15px;
     }
 }
