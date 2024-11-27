@@ -1,5 +1,6 @@
 from django.shortcuts import render, redirect, get_object_or_404
 from django.contrib.auth import authenticate, login, logout
+from django.contrib.auth.models import User
 from django.contrib.auth.decorators import login_required
 from django.contrib import messages
 from .models import Livre, Commentaire
@@ -14,7 +15,6 @@ def login_view(request):
         user = authenticate(request, username=username, password=password)
         if user is not None:
             login(request, user)
-            messages.success(request, 'Vous êtes connecté.')
             return redirect('homepage')
         else:
             messages.error(request, 'Nom d\'utilisateur ou mot de passe incorrect.')
@@ -22,11 +22,38 @@ def login_view(request):
     return render(request, 'bibliographie/login.html')
 
 def signup_view(request):
+    if request.method == 'POST':
+        first_name = request.POST['first_name']
+        last_name = request.POST['last_name']
+        email = request.POST['email']
+        username = request.POST['username']
+        password = request.POST['password']
+        password2 = request.POST['password2']
+
+        if password != password2:
+            messages.error(request, 'Les mots de passe ne correspondent pas.')
+            return redirect('signup')
+        
+        if User.objects.filter(email=email).exists():
+            messages.error(request, 'Cet email est déjà utilisé.')
+            return redirect('signup')
+        
+        user = User.objects.create_user(
+            username=username, 
+            password=password,
+            email=email, 
+            first_name=first_name,
+            last_name=last_name
+        )
+
+        login(request, user)
+        messages.success(request, 'Votre compte a été créé.')
+        return redirect('homepage')
+
     return render(request, 'bibliographie/signup.html')
 
 def logout_view(request):
     logout(request)
-    messages.success(request, 'Vous êtes déconnecté.')
     return redirect('homepage')
 
 def homepage(request):
@@ -61,7 +88,6 @@ def delete_comment(request, commentaire_id):
     commentaire = get_object_or_404(Commentaire, pk=commentaire_id)
     if commentaire.utilisateur == request.user:
         commentaire.delete()
-        messages.success(request, 'Vous avez supprimé le commentaire.')
     else:
         messages.error(request, 'Vous n\'êtes pas autorisé à supprimer ce commentaire.')
 

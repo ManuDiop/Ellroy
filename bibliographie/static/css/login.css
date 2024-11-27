@@ -95,3 +95,14 @@ button[type="submit"]:hover {
 .auth-container a:hover {
     color: #D3B88C; /* Beige sur le survol pour rester dans l’identité visuelle */
 }
+
+.messages {
+    list-style-type: none;
+    padding: 0;
+}
+
+.messages li {
+    list-style-type: none;
+    padding: 0;
+    color: red;
+}

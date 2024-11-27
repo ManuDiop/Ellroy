@@ -12,6 +12,15 @@
 <body>
     <div class="auth-container">
         <h2>Créez un compte</h2>
+
+        {% if messages %}
+            <ul class="messages">
+                {% for message in messages %}
+                    <li class="{% if message.tags %}{{ message.tags }}{% endif %}">{{ message }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+
         <form method="POST" action="{% url 'signup' %}">
             {% csrf_token %}
             <div class="form-group">
