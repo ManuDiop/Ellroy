@@ -94,6 +94,23 @@ i {
     margin-top: 20px;
 }
 
+.connexion {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.connexion p {
+    font-size: 1rem;
+    margin: 20px 0;
+}
+
+.connexion a {
+    color: #D3B88C; /* Beige */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
 .commentaire-container {
     background-color: white;
     color: black;

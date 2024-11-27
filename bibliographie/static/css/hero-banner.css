@@ -112,3 +112,16 @@ i {
 .user-icon.authenticated span {
     font-weight: bold;
 }
+
+.js-tooltip {
+    position: absolute;
+    background-color: #555;
+    color: #fff;
+    padding: 5px;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    opacity: 0.9;
+    z-index: 1000;
+    transition: opacity 0.3s;
+}
+

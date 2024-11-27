@@ -70,7 +70,9 @@
             <button type="submit" class="publier">Publier</button>
         </form>
         {% else %}
-        <p><a href="{% url 'login' %}">Connectez-vous</a> pour ajouter un commentaire.</p>
+        <div class="connexion">
+            <p><a href="{% url 'login' %}">Connectez-vous</a> pour ajouter un commentaire.</p>
+        </div>
         {% endif %}
 
         <ul>

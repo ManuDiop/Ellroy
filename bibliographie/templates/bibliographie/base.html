@@ -37,7 +37,7 @@
                 <div class="user-icon {% if user.is_authenticated %} authenticated {% endif %}">
                     {% if user.is_authenticated %}
                         <span> {{ user.first_name|default:user.username }} </span>
-                        <a href="{% url 'logout' %}">
+                        <a href="{% url 'logout' %}" class="logout-icon" id="logoutIcon">
                             <i class="fas fa-sign-out-alt"></i> 
                         </a>
                     {% else %}
